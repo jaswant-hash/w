@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusReads Testing</title>
+</head>
+<body>
+    <h2>CampusReads Book Store</h2>
+
+    <p>Book price: ₹500</p>
+    <p>Quantity: 2</p>
+
+    <button onclick="calculateTotal()">Calculate Total</button>
+
+    <p id="result">Total will appear here</p>
+
+    <script>
+        function calculateTotl() {
+            let price = 500;
+            let quantity = 2;
+            let total = price * quantity;
+
+            document.getElementById("result").innerHTML = total;
+        }
+    </script>
+</body>
+</html>

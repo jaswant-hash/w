@@ -1,0 +1,28 @@
+
+courses {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    padding: 20px;
+}
+
+course {
+    display: block;
+    background-color: white;
+    border: 2px solid steelblue;
+    margin: 15px;
+    padding: 15px;
+}
+
+name {
+    display: block;
+    color: darkblue;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+duration, fees, description {
+    display: block;
+    margin-top: 8px;
+    color: #333333;
+}

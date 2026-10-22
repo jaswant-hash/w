@@ -1,7 +1,7 @@
 from lxml import etree
 
-xml = etree.parse("course.xml")
-xsl = etree.parse("course.xsl")
+xml = etree.parse("courses.xml")
+xsl = etree.parse("courses.xsl")
 
 transform = etree.XSLT(xsl)
 result = transform(xml)

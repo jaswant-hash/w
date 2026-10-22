@@ -1,17 +1,16 @@
-CREATE DATABASE IF NOT EXISTS college;
-USE college;
+CREATE DATABASE sample;
+USE sample;
 
-CREATE TABLE IF NOT EXISTS students (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  department VARCHAR(50) NOT NULL,
-  year INT NOT NULL
+CREATE TABLE sample (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    age VARCHAR(10)
 );
-
-INSERT INTO students (name, department, year) VALUES
-  ('Arun', 'CSE', 4),
-  ('Priya', 'IT', 3),
-  ('Karthik', 'ECE', 2);
+INSERT INTO students (name, email, age) VALUES
+  ('Arun', 'arun@gmail.com', 21),
+  ('Priya', 'priya@gmail.com', 20),
+  ('Karthik', 'karthik@gmail.com', 19);
 
 
 
